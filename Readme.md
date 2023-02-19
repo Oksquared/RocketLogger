@@ -1,5 +1,8 @@
 MAKE SURE YOU HAVE THE DATALOGGER PROGRAM RUNNING BEFORE LAUNCH
 
+Adafruit Featherwing M0 with a Adafruit LSM6DSOX + LIS3MDL FeatherWing - Precision 9-DoF IMU and  Adafruit SPI Flash SD Card - XTSD 512 MB chip.
+
+
 you may need to install a few library's not through the Arduino library manager.
 
 Instructions:
