@@ -3,6 +3,7 @@ MAKE SURE YOU HAVE THE DATALOGGER PROGRAM RUNNING BEFORE LAUNCH
 you may need to install a few library's not through the Arduino library manager.
 
 Instructions:
+
 1.) Upload Datalogger program before launch with a NEW FILE NAME to write to.
 
 2.) After retrieval upload "DumpFile" program WITH SAME FILE NAME PROGRAMMED AS WAS WHAT WAS WRITTEN TOO!
