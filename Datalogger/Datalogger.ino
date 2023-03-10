@@ -78,7 +78,7 @@ bool firstLine = true;
 void loop() {
   String dataString = "";
   if (firstLine) {  // if first time in loop, print a header
-    dataString = "X accel, Y accel, Z accel, Gyro X, Gyro Y, Gyro Z, Temperature";
+    dataString = "X accel, Y accel, Z accel, Gyro X, Gyro Y, Gyro Z, Temperature, Raw Pressure in hPa, Altitude in Meters ";
     File dataFile = SD.open(fileName, FILE_WRITE);
 
     // if the file is available, write to it:
