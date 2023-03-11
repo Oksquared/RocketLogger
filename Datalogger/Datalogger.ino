@@ -136,7 +136,7 @@ void loop() {
   dataString += ",";
   dataString += String(bmp.pressure / 100.0);  // Log Raw pressure in hPa
   dataString += ",";
-  dataString += String(bmp.readAltitude(SEALEVELPRESSURE_HPA));  // this is in meters
+  dataString += String(bmp.readAltitude(SEALEVELPRESSURE_HPA));  // Altitude in meters
 
 
 
