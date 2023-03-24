@@ -33,7 +33,7 @@ Adafruit_LSM6DSOX sox;
 
 const int writeFrequency = 200;  //log data every X ms
 
-String fileName = "data.txt";
+String fileName = "data4.txt";
 
 void setup() {
   pixels.begin();  // INITIALIZE NeoPixel strip object (REQUIRED)
@@ -109,12 +109,12 @@ void loop() {
   sensors_event_t temp;
   sox.getEvent(&accel, &gyro, &temp);
 
-  Serial.print(bmp.pressure / 100.0);
-  Serial.println(" hPa");
+  // Serial.print(bmp.pressure / 100.0);
+  // Serial.println(" hPa");
 
-  Serial.print("Approx. Altitude = ");
-  Serial.print(bmp.readAltitude(SEALEVELPRESSURE_HPA));
-  Serial.println(" m");
+  // Serial.print("Approx. Altitude = ");
+  // Serial.print(bmp.readAltitude(SEALEVELPRESSURE_HPA));
+  // Serial.println(" m");
 
 
   // read three sensors and append to the string:
